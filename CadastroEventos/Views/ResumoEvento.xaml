@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="CadastroEventos.Views.ResumoEvento"
+             Title="Resumo do Evento"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Black}">
+    <ScrollView>
+
+        <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                             Padding="10"
+                             Spacing="10">
+
+        <Label Text="Evento Cadastrado com Sucesso!"
+           FontFamily="Jacquard"
+           FontSize="50"
+           TextColor="{StaticResource Primary}" 
+           HorizontalTextAlignment="Center"/>
+
+        <Label Text="Resumo do Evento" 
+                       FontSize="24"
+                       HorizontalOptions="Center" />
+
+            <Frame Margin="10"
+                   Padding="10">
+                <Grid ColumnDefinitions="*, *"
+                  RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+
+                    <Label Grid.Row="0" Grid.Column="0" 
+                           Text="Nome do Evento:" />
+                    <Label Grid.Row="0" Grid.Column="1"
+                           Text="{Binding Evento.Nome}" />
+
+                    <Label Grid.Row="1" Grid.Column="0" 
+                           Text="Data de Início:" />
+                    <Label Grid.Row="1" Grid.Column="1"
+                           Text="{Binding Evento.DataInicio, StringFormat='{0:dd/MM/yyyy}'}" />
+
+                    <Label Grid.Row="2" Grid.Column="0"
+                           Text="Data de Término:" />
+                    <Label Grid.Row="2" Grid.Column="1"
+                           Text="{Binding Evento.DataTermino, StringFormat='{0:dd/MM/yyyy}'}" />
+
+                    <Label Grid.Row="3" Grid.Column="0"
+                           Text="Duração (em dias):" />
+                    <Label Grid.Row="3" Grid.Column="1"
+                           Text="{Binding Evento.DuracaoEmDias}" />
+
+                    <Label Grid.Row="4" Grid.Column="0"
+                           Text="Número de Participantes:" />
+                    <Label Grid.Row="4" Grid.Column="1"
+                           Text="{Binding Evento.NumeroParticipantes}" />
+
+                    <Label Grid.Row="5" Grid.Column="0"
+                           Text="Local do Evento:" />
+                    <Label Grid.Row="5" Grid.Column="1"
+                           Text="{Binding Evento.Local}" />
+
+                    <Label Grid.Row="6" Grid.Column="0"
+                           Text="Custo por Participante:" />
+                    <Label Grid.Row="6" Grid.Column="1"
+                           Text="{Binding Evento.CustoPorParticipante, StringFormat='R${0:N2}'}" />
+
+                    <Label Grid.Row="7" Grid.Column="0"
+                           Text="Requisitos da Atividade:" />
+                    <Label Grid.Row="7" Grid.Column="1" 
+                           Text="{Binding Evento.Requisitos}" />
+
+                    <Label Grid.Row="8" Grid.Column="0"
+                           Text="Custo Total do Evento:" />
+                    <Label Grid.Row="8" Grid.Column="1"
+                           Text="{Binding Evento.CustoTotal, StringFormat='R${0:N2}'}" />
+                </Grid>
+            </Frame>
+
+                <Button Text="Cadastrar Novo Evento"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        BackgroundColor="{StaticResource Primary}"
+                        Command="{Binding VoltarCommand}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

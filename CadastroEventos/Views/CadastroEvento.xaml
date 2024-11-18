@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="CadastroEventos.Views.CadastroEvento"
+             Title="Cadastro de Evento"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Black}">
+    <ScrollView>
+
+        <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10"
+                         Spacing="10">
+
+        <Label Text="Cadastro de Evento"
+               FontFamily="Jacquard"
+               FontSize="50"
+               TextColor="{StaticResource Primary}" 
+               HorizontalTextAlignment="Center"/>
+
+        <Frame Padding="10"
+               Margin="10">
+            <VerticalStackLayout>
+                <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
+                      ColumnDefinitions="*, 2*">
+
+                    <Label Grid.Row="0" Grid.Column="0"
+                           Text="Nome do Evento:"/>
+
+                    <Entry Grid.Row="0" Grid.Column="1"
+                           Text="{Binding Evento.Nome}" />
+
+                    <Label Grid.Row="1" Grid.Column="0"
+                        Text="Número de Participantes:" />
+
+                    <Entry Grid.Row="1" Grid.Column="1"
+                           Keyboard="Numeric" 
+                           Text="{Binding Evento.NumeroParticipantes}" />
+
+                    <Label Grid.Row="2" Grid.Column="0"
+                           Text="Local do Evento:" />
+
+                    <Entry Grid.Row="2" Grid.Column="1"
+                           Text="{Binding Evento.Local}" />
+
+                    <Label Grid.Row="3" Grid.Column="0"
+                           Text="Custo por Participante:" />
+
+                    <Entry Grid.Row="3" Grid.Column="1"
+                           Keyboard="Numeric" 
+                           Text="{Binding Evento.CustoPorParticipante}" />
+
+                    <Label Grid.Row="4" Grid.Column="0"
+                           Text="Requisitos da Atividade:" />
+
+                    <Editor Grid.Row="4" Grid.Column="1"
+                            Text="{Binding Evento.Requisitos}" HeightRequest="100" />
+                </Grid>
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame Padding="10"
+               Margin="10">
+            <VerticalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                    <Label Text="Data de Início:" />
+                    <DatePicker Date="{Binding Evento.DataInicio}"
+                                Format="dd/MM/yyyy"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                    <Label Text="Data de Término:" />
+                    <DatePicker Date="{Binding Evento.DataTermino}"
+                                    MinimumDate="{Binding Evento.DataInicio}"
+                                    Format="dd/MM/yyyy"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+
+        <Button Text="Cadastrar Evento"
+                TextColor="White"
+                HorizontalOptions="Center"
+                BackgroundColor="{StaticResource Primary}"
+                Command="{Binding SalvarEventoCommand}" />
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

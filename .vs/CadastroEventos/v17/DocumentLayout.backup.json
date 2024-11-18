@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\models\\eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\models\\eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\views\\cadastroevento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\views\\cadastroevento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\views\\resumoevento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\views\\resumoevento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\views\\cadastroevento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\views\\cadastroevento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\views\\resumoevento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\views\\resumoevento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|c:\\users\\girgd\\source\\repos\\cadastroeventos\\cadastroeventos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF0FD92-7E70-42BD-AD57-E5A8FBAF64C8}|CadastroEventos\\CadastroEventos.csproj|solutionrelative:cadastroeventos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResumoEvento.xaml",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\ResumoEvento.xaml",
+              "RelativeDocumentMoniker": "CadastroEventos\\Views\\ResumoEvento.xaml",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\ResumoEvento.xaml",
+              "RelativeToolTip": "CadastroEventos\\Views\\ResumoEvento.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T23:12:09.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CadastroEvento.xaml",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\CadastroEvento.xaml",
+              "RelativeDocumentMoniker": "CadastroEventos\\Views\\CadastroEvento.xaml",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\CadastroEvento.xaml",
+              "RelativeToolTip": "CadastroEventos\\Views\\CadastroEvento.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T23:09:00.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Eventos.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Models\\Eventos.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\Models\\Eventos.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Models\\Eventos.cs",
+              "RelativeToolTip": "CadastroEventos\\Models\\Eventos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:06:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\MainPage.xaml.cs",
+              "RelativeToolTip": "CadastroEventos\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:02:00.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\MauiProgram.cs",
+              "RelativeToolTip": "CadastroEventos\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T22:57:53.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResumoEvento.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\ResumoEvento.xaml.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\Views\\ResumoEvento.xaml.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\ResumoEvento.xaml.cs",
+              "RelativeToolTip": "CadastroEventos\\Views\\ResumoEvento.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:12:52.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastroEvento.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\CadastroEvento.xaml.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\Views\\CadastroEvento.xaml.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\Views\\CadastroEvento.xaml.cs",
+              "RelativeToolTip": "CadastroEventos\\Views\\CadastroEvento.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:09:03.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CadastroEventos\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\girgd\\source\\repos\\CadastroEventos\\CadastroEventos\\App.xaml.cs",
+              "RelativeToolTip": "CadastroEventos\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T22:32:22.77Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
